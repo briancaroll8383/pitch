@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Environment / secrets
+.env
+*.env
+!.env.example
+
+# Database (local only — use persistent volume in production)
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+
+# Custom prompts (local overrides)
+custom_prompts.json
+
+# Node (if ever added)
+node_modules/
+
+# Old prototype directories
+band-ai-app/
+pitch-app/
+
+# Generated/misc docs
+*.docx
+*.md
+!README.md
+360_profile_structure.txt
